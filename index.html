@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encuentra y descarga mapas de osu! en un pequeño rincón Frutiger Aero.">
+    <title>Aerobeat · mapas de osu!</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <header class="cabecera">
+      <a class="marca" href="./"><span class="orbe" aria-hidden="true">a</span> aerobeat</a>
+      <span class="subtitulo">Tu próxima canción, tu próximo mapa.</span>
+      <a href="https://osu.ppy.sh/" target="_blank" rel="noopener noreferrer">Conoce osu! ↗</a>
+    </header>
+
+    <main class="ventana">
+      <div class="barra-ventana"><span>Aerobeat / Explorador de mapas</span><span>M2 · Async Odyssey</span></div>
+      <section class="presentacion" aria-labelledby="titulo">
+        <div>
+          <p class="antetitulo">MÚSICA. CÍRCULOS. UN POCO DE NOSTALGIA.</p>
+          <h1 id="titulo">Encuentra tu ritmo.</h1>
+          <p>Busca una canción. Descubre su mapa. Vuelve a jugar.</p>
+        </div>
+        <div class="disco" aria-hidden="true"><span>osu!</span></div>
+      </section>
+
+      <section class="explorador" aria-label="Buscador de mapas">
+        <form id="buscador">
+          <fieldset id="controles">
+            <legend>Explorar beatmaps</legend>
+            <label for="consulta">Canción, artista o creador</label>
+            <div class="fila-busqueda">
+              <input id="consulta" type="search" value="nevada" maxlength="100" placeholder="Por ejemplo: Nevada, Camellia…" required>
+              <button type="submit">Buscar mapas</button>
+            </div>
+            <div class="filtros">
+              <label for="modo">Modo de juego</label>
+              <select id="modo">
+                <option value="todos">Todos los modos</option>
+                <option value="osu">osu!</option>
+                <option value="taiko">osu!taiko</option>
+                <option value="fruits">osu!catch</option>
+                <option value="mania">osu!mania</option>
+              </select>
+              <span>El filtro se aplica a los 24 resultados recibidos.</span>
+            </div>
+          </fieldset>
+        </form>
+        <div class="resultados-cabecera">
+          <h2>Tu selección</h2>
+          <p id="resumen"></p>
+        </div>
+        <p id="estado" role="status" aria-live="polite">Preparando el explorador…</p>
+        <div id="resultados" class="cuadricula"></div>
+      </section>
+      <footer class="pie-ventana">
+        <span>Descarga el .osz y ábrelo con osu! para instalarlo.</span>
+        <span>Datos y descargas: <a href="https://mirror.hinamizawa.ai/docs" target="_blank" rel="noopener noreferrer">hinai</a></span>
+      </footer>
+    </main>
+    <footer class="pie">Hecho para encontrar canciones y perder la noción del tiempo. <span>@Mendo · Web I</span></footer>
+    <noscript>Activa JavaScript para buscar mapas.</noscript>
+  </body>
+</html>
