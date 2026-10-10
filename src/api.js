@@ -32,5 +32,5 @@ export async function buscarMapas(consulta) {
 }
 
 export function enlaceDescarga(id) {
-  return `${API}/api/v1/hinai/d/${id}`;
+  return `https://beatconnect.io/b/${id}`;
 }
