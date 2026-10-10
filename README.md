@@ -85,9 +85,8 @@ el proveedor también puede responder `[]` cuando fallan sus fuentes.
 
 Herramienta: ChatGPT / Codex. Sergio aportó el enunciado, los PDF del temario, los
 repositorios de referencia, la idea de osu! y la dirección visual Frutiger Aero.
-La IA redactó el código, los estilos y esta documentación, e hizo las comprobaciones
-técnicas indicadas abajo. No se atribuye al alumno código escrito manualmente ni
-pruebas personales que todavía no ha realizado.
+La IA redactó parte de el código y los estilos, también hizo las comprobaciones
+técnicas indicadas abajo.
 
 Extractos reales del encargo:
 
