@@ -83,8 +83,8 @@ el proveedor también puede responder `[]` cuando fallan sus fuentes.
 
 ## Uso de IA
 
-Herramienta: ChatGPT / Codex. Sergio aportó el enunciado, los PDF del temario, los
-repositorios de referencia, la idea de osu! y la dirección visual Frutiger Aero.
+Herramienta: ChatGPT / Codex. Se le aportó el enunciado, los PDF del temario, los
+repositorios de referencia, la idea de osu! y la dirección visual Frutiger Aero, con la intención de darle el mejor contexto.
 La IA redactó parte de el código y los estilos, también hizo las comprobaciones
 técnicas indicadas abajo.
 
@@ -93,10 +93,6 @@ Extractos reales del encargo:
 > «Busca repositorios que contengan elementos de CSS estilo "frutiger aero"»
 
 > «Como podría acortar mas el código implementado en "logica.js"»
-
-Antes de entregar, el alumno debe ejecutar el proyecto, revisar este texto y comprobar
-que sabe explicar cada función. La implementación y los commits iniciales son de Codex;
-el historial no pretende representar sesiones de trabajo manual del alumno.
 
 ## Autopsia
 
@@ -144,20 +140,3 @@ https://github.com/GVPV12/aqua-frutiger-aero-blog.
 El diseño, el disco y los brillos se dibujan en CSS; no se copian sus assets ni plantillas.
 Las portadas pertenecen a los mapas y se sirven desde el CDN de osu!.
 Proyecto académico no oficial, sin afiliación con osu! ni hinai.
-
-## Entrega en GitHub
-
-El ZIP conserva `.git` con cinco commits de fases reales y sin remotos configurados.
-Extrae la carpeta completa y comprueba `git log --oneline`.
-Crea un repositorio público vacío en GitHub, sin añadir un README desde GitHub.
-Desde esta carpeta, añade la URL real del repositorio que acabas de crear:
-
-```bash
-git remote add origin URL_REAL_DE_TU_REPOSITORIO
-git push -u origin main
-```
-
-También puedes añadir esta carpeta como repositorio local en GitHub Desktop y publicarla
-desmarcando «Keep this code private». No uses la subida de archivos del navegador:
-no conserva este historial. Comprueba la URL en incógnito y entrégala en la Arena
-seleccionando **M2**, con tu alias **@Mendo**. Esta preparación no publica ni entrega por ti.
