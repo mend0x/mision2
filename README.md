@@ -91,9 +91,9 @@ pruebas personales que todavía no ha realizado.
 
 Extractos reales del encargo:
 
-> «la pagina que vamos a realizar para la siguiente mision es sencilla y debe de tener un codigo no muy largo»
+> «Busca repositorios que contengan elementos de CSS estilo "frutiger aero"»
 
-> «ME VAS A DAR TODO FUNCIONANDO, RECUERDA QUE MENOS ES MAS Y CEÑIRTE AL TEMARIO»
+> «Como podría acortar mas el código implementado en "logica.js"»
 
 Antes de entregar, el alumno debe ejecutar el proyecto, revisar este texto y comprobar
 que sabe explicar cada función. La implementación y los commits iniciales son de Codex;
